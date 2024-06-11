@@ -1,7 +1,7 @@
-import { BackgroundBeams } from './components/ui/background-beams';
-import Headerbox from './components/Headerbox';
-import { HeroName } from './components/HeroName';
-import HeroPic from './components/HeroPic';
+import { BackgroundBeams } from '../components/ui/background-beams';
+import Headerbox from '../components/Headerbox';
+import { HeroName } from '../components/HeroName';
+import HeroPic from '../components/HeroPic';
 
 export default function Home() {
   return (
