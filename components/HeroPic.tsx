@@ -4,6 +4,7 @@ import Image from "next/image";
 import { FlipWords } from "./ui/flip-words";
 import { motion } from "framer-motion";
 import { BackgroundGradient } from "./ui/background-gradient";
+import { LiveBorder } from "./ui/moving-border";
 
 const HeroPic = () => {
   return (
@@ -15,24 +16,25 @@ const HeroPic = () => {
           transition={{ duration: 1, delay: 2.5 }} // Adjust delay as needed
           className="relative rounded-full overflow-hidden h-[350px] w-[350px]"
         >
-          <Image
-            src="/Profile.jpg"
-            width={350}
-            height={350}
-            alt="The Man the Myth The Legend"
-          />
+            <Image
+              src="/Profile.jpg"
+              width={350}
+              height={350}
+              alt="The Man the Myth The Legend"
+              className="rounded-full" // Ensures the image itself is rounded
+            />
         </motion.div>
       </BackgroundGradient>
 
       {/* TEXT */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 2.5 }} // Adjust delay as needed (image delay + 1.5s for the text to appear later)
-          className="mt-4 w-[400px] flex justify-center "
-        >
-          <FlipWords words={["Software Engineer", "Web Developer"]} className="text-4xl" />
-        </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 4 }} // Adjust delay as needed (image delay + 1.5s for the text to appear later)
+        className="mt-4 w-[400px] flex justify-center "
+      >
+        <FlipWords words={["Software Engineer", "Web Developer", "Mr. Steal your Girl"]} className="text-4xl" />
+      </motion.div>
     </div>
   );
 };

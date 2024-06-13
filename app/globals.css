@@ -3,3 +3,136 @@
 @tailwind utilities;
 
 
+:root {
+    --card-bg-light: #f9fafb; /* light theme card background */
+    --card-bg-dark: #1a1a1a; /* dark theme card background */
+    --card-border-light: rgba(0, 0, 0, 0.1); /* light theme border */
+    --card-border-dark: rgba(255, 255, 255, 0.2); /* dark theme border */
+    --card-text-light: #1a202c; /* light theme text */
+    --card-text-dark: #f9fafb; /* dark theme text */
+    --card-shadow-light: rgba(0, 0, 0, 0.1); /* light theme shadow */
+    --card-shadow-dark: rgba(46, 229, 157, 0.1); /* dark theme shadow */
+    --btn-bg-light: #1a202c; /* light theme button background */
+    --btn-bg-dark: #f9fafb; /* dark theme button background */
+    --btn-text-light: #f9fafb; /* light theme button text */
+    --btn-text-dark: #1a202c; /* dark theme button text */
+  }
+  
+  body.dark {
+    --card-bg: var(--card-bg-dark);
+    --card-border: var(--card-border-dark);
+    --card-text: var(--card-text-dark);
+    --card-shadow: var(--card-shadow-dark);
+    --btn-bg: var(--btn-bg-dark);
+    --btn-text: var(--btn-text-dark);
+  }
+  
+  body.light {
+    --card-bg: var(--card-bg-light);
+    --card-border: var(--card-border-light);
+    --card-text: var(--card-text-light);
+    --card-shadow: var(--card-shadow-light);
+    --btn-bg: var(--btn-bg-light);
+    --btn-text: var(--btn-text-light);
+  }
+  
+  .title-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .glow {
+    font-size: 3em; /* Adjust font size as needed */
+    color: #fff; /* Text color */
+    text-shadow: 0 0 10px rgba(128, 0, 128, 0.5); /* Purple glow effect */
+  }
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+  .text-cyan-500 {
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+  }
+  
+  .glitch {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 5rem;
+    font-weight: bold;
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+    opacity: 0.8;
+    animation: glitch 1s infinite;
+  }
+  
+  .glitch:nth-child(2) {
+    left: calc(50% + 2px);
+    animation: glitch 1s infinite reverse;
+  }
+  
+  .glitch:nth-child(3) {
+    left: calc(50% - 2px);
+    animation: glitch 1s infinite;
+  }
+  
+  @keyframes glitch {
+    0% {
+      clip: rect(0, 900px, 0, 0);
+      transform: translate(1px, 1px);
+    }
+    10% {
+      clip: rect(80px, 900px, 90px, 0);
+      transform: translate(-1px, -1px);
+    }
+    20% {
+      clip: rect(10px, 900px, 20px, 0);
+      transform: translate(-2px, 1px);
+    }
+    30% {
+      clip: rect(40px, 900px, 50px, 0);
+      transform: translate(1px, -2px);
+    }
+    40% {
+      clip: rect(60px, 900px, 70px, 0);
+      transform: translate(-1px, 1px);
+    }
+    50% {
+      clip: rect(30px, 900px, 40px, 0);
+      transform: translate(-1px, 2px);
+    }
+    60% {
+      clip: rect(70px, 900px, 80px, 0);
+      transform: translate(2px, 1px);
+    }
+    70% {
+      clip: rect(20px, 900px, 30px, 0);
+      transform: translate(1px, -1px);
+    }
+    80% {
+      clip: rect(50px, 900px, 60px, 0);
+      transform: translate(-2px, -1px);
+    }
+    90% {
+      clip: rect(10px, 900px, 20px, 0);
+      transform: translate(1px, 2px);
+    }
+    100% {
+      clip: rect(40px, 900px, 50px, 0);
+      transform: translate(-1px, -2px);
+    }
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+.text-custom-purple {
+  color: #8A2BE2;
+  text-shadow: 0 0 15px #a21caf;
+}
+
+.bg-custom-purple {
+  background-color: rgb(255, 255, 255);
+}
+

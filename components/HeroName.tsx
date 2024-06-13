@@ -8,7 +8,7 @@ export const HeroName = () => {
             <TextGenerateEffect
               firstName="Mayuresh"
               lastName="Chavan"
-              wordClassName="text-purple-500 dark:text-purple-300 text-8xl"
+              wordClassName="text-[#8A2BE2] dark:text-purple-300 text-8xl"
               containerClassName="flex flex-col items-start"
             />
           </div>
