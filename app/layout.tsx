@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
       <div className="h-full w-full bg-neutral-950 relative flex flex-col antialiased">
 
-      <BackgroundBeams className="max-h-full w-full " />
+      <BackgroundBeams className="h-full w-full " />
 
         {children}
 
