@@ -8,16 +8,19 @@ export const TextGenerateEffect = ({
   lastName,
   className,
   wordClassName,
+  firstNameClassName,
+  lastNameClassName,
   containerClassName,
 }: {
   firstName: string;
   lastName: string;
   className?: string;
   wordClassName?: string;
+  firstNameClassName?: string;
+  lastNameClassName?: string;
   containerClassName?: string;
 }) => {
   const [scope, animate] = useAnimate();
-  const wordsArray = `${firstName} ${lastName}`.split(" ");
 
   useEffect(() => {
     animate(
@@ -30,19 +33,21 @@ export const TextGenerateEffect = ({
         delay: stagger(0.75),
       }
     );
-  }, [scope.current]);
+  }, [scope, animate]);
 
   const renderWords = () => {
     return (
       <motion.div ref={scope} className={containerClassName}>
-        {wordsArray.map((word, idx) => (
-          <motion.span
-            key={word + idx}
-            className={cn("dark:text-white text-black opacity-0 block", wordClassName)}
-          >
-            {word}
-          </motion.span>
-        ))}
+        <motion.span
+          className={cn("dark:text-white text-black opacity-0 block", wordClassName, firstNameClassName)}
+        >
+          {firstName}
+        </motion.span>
+        <motion.span
+          className={cn("dark:text-white text-black opacity-0 block", wordClassName, lastNameClassName)}
+        >
+          {lastName}
+        </motion.span>
       </motion.div>
     );
   };

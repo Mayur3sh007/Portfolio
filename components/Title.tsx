@@ -8,8 +8,8 @@ const Title = ({ word1,word2,className }: { word1: string, word2: string, classN
     style={{ fontFamily: "'Orbitron', sans-serif" }}
     >
       <h1 className="text-6xl font-bold relative z-10">
-        <span className="text-custom-purple  tracking-normal">{word1} </span>
-        <span className="text-gray-200  tracking-normal">{word2}</span>
+        <span className=" text-gray-200  tracking-normal">{word1} </span>
+        <span className="text-custom-purple tracking-normal">{word2}</span>
       </h1>
     </div>
   );

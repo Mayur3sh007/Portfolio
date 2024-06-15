@@ -2,21 +2,24 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className=" text-gray-200 py-8 px-4">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
-        <div className="mb-4 md:mb-0">
-          <h2 className="text-2xl font-bold text-indigo-700 mb-2">Your Company Name</h2>
-          <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <footer className="py-8 px-4 bg-transparent text-white">
+      <div className="max-w-7xl mx-auto  flex-col md:flex-row justify-center items-center">
+        {/* Left Section */}
+        <div className="text-gray-300 text-center mb-4 md:mb-0 md:mr-4">
+          <p>© 2024 Mayuresh Chavan. All rights reserved.</p>
         </div>
-        <div className="flex items-center space-x-4">
-          <a href="#" className="text-gray-200 hover:text-indigo-700 transition-colors duration-300">
-            About
+
+        {/* Right Section */}
+        <div className="flex items-center justify-center md:justify-center space-x-4">
+          {/* Social Links */}
+          <a href="https://www.linkedin.com/in/mayuresh-chavan-04a3b5259/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-700 transition-colors duration-300">
+            LinkedIn
           </a>
-          <a href="#" className="text-gray-200 hover:text-indigo-700 transition-colors duration-300">
-            Services
+          <a href="https://x.com/MayureshizCool?t=Z17T8zAakN7_takROm2UDA&s=08" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-700 transition-colors duration-300">
+            Twitter
           </a>
-          <a href="#" className="text-gray-200 hover:text-indigo-700 transition-colors duration-300">
-            Contact
+          <a href="mailto:mayureshc007@gmail.com" className="hover:text-indigo-700 transition-colors duration-300">
+            Gmail
           </a>
         </div>
       </div>

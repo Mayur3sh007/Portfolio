@@ -7,9 +7,6 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-10 -mt-15">
-      <h1 className="heading">
-        My <span className="text-purple">approach</span>
-      </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-5 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}

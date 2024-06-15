@@ -2,7 +2,6 @@ import { cn } from "@/utils/cn";
 import React from "react";
 import { motion } from "framer-motion";
 
-
 export const BackgroundGradient = ({
   children,
   className,
@@ -17,9 +16,11 @@ export const BackgroundGradient = ({
   const variants = {
     initial: {
       backgroundPosition: "0 50%",
+      opacity: 0,
     },
     animate: {
-      backgroundPosition: ["0, 50%", "100% 50%", "0 50%"],
+      backgroundPosition: ["0 50%", "100% 50%", "0 50%"],
+      opacity: 1,
     },
   };
   return (
@@ -34,6 +35,7 @@ export const BackgroundGradient = ({
                 duration: 5,
                 repeat: Infinity,
                 repeatType: "reverse",
+                delay: 2.5, // Align the delay with the Image component
               }
             : undefined
         }
@@ -55,6 +57,7 @@ export const BackgroundGradient = ({
                 duration: 5,
                 repeat: Infinity,
                 repeatType: "reverse",
+                delay: 2.5, // Align the delay with the Image component
               }
             : undefined
         }

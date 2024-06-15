@@ -21,8 +21,8 @@ export function Navbar() {
       icon: <IconUser className="h-4 w-4 text-[#8A2BE2] dark:text-[#8A2BE2]" />,
     },
     {
-      name: "Approach",
-      link: "#approach",
+      name: "Contact",
+      link: "#contact",
       icon: <IconMessage className="h-4 w-4 text-[#8A2BE2] dark:text-[#8A2BE2]" />,
     },
   ];

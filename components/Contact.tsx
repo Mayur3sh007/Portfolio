@@ -1,4 +1,5 @@
-import { FormEvent, useState } from "react";
+"use client"
+import React, { FormEvent, useState } from "react";
 import { toast } from "react-hot-toast";
 
 const ContactForm = () => {
@@ -36,80 +37,61 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="h-full w-full max-w-[30rem] mx-auto shadow-md rounded-lg "
+      className="max-w-lg mx-auto p-6 rounded-lg shadow-md bg-neutral-950"
     >
-      <div className="flex gap-2">
-        <div className="mb-4">
-          <label
-            htmlFor="firstName"
-            className="block text-white-1 text-sm font-medium mb-2"
-          >
-            First Name*
-          </label>
+      <h3 className="text-center text-xl text-white mb-5">Please enter your details</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="flex flex-col">
           <input
-            required
             type="text"
             id="firstName"
+            placeholder="First Name"
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
-            className="w-full px-3 py-2 text-white-1 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-1"
+            className="py-3 px-4 bg-gray-900 text-white rounded-md border-2 border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500"
+            required
           />
         </div>
-
-        <div className="mb-4">
-          <label
-            htmlFor="lastName"
-            className="block text-white-1 text-sm font-medium mb-2"
-          >
-            Last Name*
-          </label>
+        <div className="flex flex-col">
           <input
-            required
             type="text"
             id="lastName"
+            placeholder="Last Name"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
-            className="w-full px-3 py-2 text-white-1 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-1"
+            className="py-3 px-4 bg-gray-900 text-white rounded-md border-2 border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500"
+            required
           />
         </div>
       </div>
-      <div className="mb-4">
-        <label
-          htmlFor="email"
-          className="block text-white-1 text-sm font-medium mb-2"
-        >
-          Email*
-        </label>
+
+      <div className="mt-4">
         <input
-          required
           type="email"
           id="email"
+          placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full px-3 py-2 text-white-1 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-1"
+          className="py-3 px-4 w-full bg-gray-900 text-white rounded-md border-2 border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500"
+          required
         />
       </div>
 
-      <div className="mb-4">
-        <label
-          htmlFor="message"
-          className="block text-white-1 text-sm font-medium mb-2"
-        >
-          Message*
-        </label>
+      <div className="mt-4">
         <textarea
           id="message"
+          placeholder="Message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className="w-full px-3 py-2 text-white-1 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-1"
-          // rows : string="4"
+          className="py-3 px-4 w-full bg-gray-900 text-white rounded-md border-2 border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500"
+          rows={4}
           required
         />
       </div>
 
       <button
         type="submit"
-        className="w-full bg-blue-1 hover:bg-blue-1 text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-1"
+        className="w-full mt-3 bg-purple-500 hover:bg-purple-600 text-white font-semibold py-3 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
       >
         Submit
       </button>

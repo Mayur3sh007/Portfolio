@@ -61,7 +61,14 @@ import {
   SiGmail,
   SiLinkedin,
   SiTwitter,
-  SiSqlite
+  SiSqlite,
+  SiPython,
+  SiPytorch,
+  SiGit,
+  SiGithub,
+  SiNumpy,
+  SiPandas,
+  SiCplusplus
 } from "react-icons/si";
 
 import { IoIosGitBranch } from "react-icons/io";
@@ -126,5 +133,12 @@ export const Icons = {
   userFill: BiSolidUser,
   work: HiBriefcase,
   expressjs: SiExpress,
-  sqllite : SiSqlite
+  sqllite : SiSqlite,
+  python: SiPython,
+  pytorch: SiPytorch,
+  github: SiGithub,
+  git: SiGit,
+  numpy: SiNumpy,
+  cpp: SiCplusplus,
+  pandas: SiPandas,
 };
