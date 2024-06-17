@@ -7,9 +7,9 @@ import { BackgroundGradient } from "./ui/background-gradient";
 
 const HeroPic = () => {
   return (
-    <div className="absolute top-1/2 right-4 transform -translate-y-1/2 flex flex-col items-center 
-       md:top-1/2 md:-translate-y-1/2 md:mr-[14%]
-       max-sm:mx-auto max-sm:-translate-y-[100%] max-sm:translate-x-[5%]">
+    <div className="absolute transform flex flex-col mr-[16%] translate-x-[160%] -translate-y-[80%] max-w-full
+        max-md:translate-x-[8%] max-md:-translate-y-[160%]
+       ">
       
       {/* IMAGE */} 
       <BackgroundGradient className="p-2 rounded-full" animate={true}>
@@ -18,8 +18,8 @@ const HeroPic = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 2.5 }}
           className="relative rounded-full overflow-hidden 
-            md:h-[350px] md:w-[350px]
-            max-sm:h-[250px] max-sm:w-[250px]"
+            h-[350px] w-[350px]
+            max-md:h-[250px] max-md:w-[250px]"
         >
           <Image
             src="/Profile.jpg"
@@ -36,9 +36,9 @@ const HeroPic = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 4 }}
-        className="mt-4 w-full flex justify-center px-4 md:w-[400px] max-sm:w-[400px]"
+        className="mt-4 flex justify-center"
       >
-        <FlipWords words={["Software Engineer", "Web Developer", "ML Enthusiast"]} className="text-2xl md:text-4xl" />
+        <FlipWords words={["Software Engineer", "Web Developer", "ML Enthusiast"]} className="text-3xl max-md:text-2xl max-md:tracking-tight" />
       </motion.div>
     </div>
   );

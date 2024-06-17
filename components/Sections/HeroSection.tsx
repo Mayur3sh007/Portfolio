@@ -5,7 +5,7 @@ import { BackgroundBeams } from '../ui/background-beams'
 
 const HeroSection = () => {
   return (
-    <div className="h-full w-full bg-neutral-950 relative flex flex-col antialiased max-md:flex-col" id="hero">
+    <div className="h-screen w-screen bg-neutral-950 relative flex flex-col antialiased max-md:flex-col" id="hero">
           <BackgroundBeams className="h-full w-full " />
           <div className="flex-grow flex relative items-center mb-8 h-screen">
             <div className="flex flex-col w-full max-w-screen-lg">
