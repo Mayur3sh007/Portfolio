@@ -12,8 +12,8 @@ const SkillCard: React.FC<SkillCardProps> = ({ title, iconName }) => {
 
   return (
     <GlareCard className="flex flex-col items-center justify-center p-4">
-      {IconComponent && <IconComponent className="w-24 h-24 text-purple-500" />} {/* Adjust size and color as needed */}
-      <p className="text-white font-bold text-3xl mt-10">{title}</p>
+      {IconComponent && <IconComponent className="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 text-purple-500" />} {/* Adjust size and color as needed */}
+      <p className="text-white font-bold text-lg md:text-xl lg:text-2xl mt-4">{title}</p>
     </GlareCard>
   );
 }

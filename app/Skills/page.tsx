@@ -9,7 +9,7 @@ const page = () => {
     { title: 'Redux', iconName: 'redux' },
     { title: 'expressjs', iconName: 'expressjs' },
     { title: 'Nodejs', iconName: 'nodejs' },
-    { title: 'Tailwind CSS', iconName: 'tailwindcss' },
+    { title: 'TailwindCSS', iconName: 'tailwindcss' },
     { title: 'Mongodb', iconName: 'mongodb' },
     { title: 'SQL', iconName: 'sqllite' },
     { title: 'NEXTjs', iconName: 'nextjs' },
