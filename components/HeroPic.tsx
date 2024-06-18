@@ -22,7 +22,7 @@ const HeroPic = () => {
             max-md:h-[250px] max-md:w-[250px]"
         >
           <Image
-            src="/Profile.jpg"
+            src="/profile.JPG"
             width={350}
             height={350}
             alt="The Man the Myth The Legend"
