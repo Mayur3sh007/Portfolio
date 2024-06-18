@@ -3,8 +3,9 @@ import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'; // Importing
 
 const Headerbox = () => {
   return (
-    <header className="w-full text-purple-500 dark:text-purple-300 p-4 shadow-lg opacity-50">
-      <div className="max-w-7xl mx-auto flex justify-end items-center">
+    <header className="w-full text-purple-500 dark:text-purple-300 p-4 shadow-lg z-10000">
+      <div className="max-w-7xl mx-auto flex justify-end items-center
+        max-md:justify-center max-md:items-center max-md:mt-5">
         <nav className="flex space-x-8 cursor-pointer">
           <a
             href="https://www.linkedin.com/in/mayuresh-chavan-04a3b5259/"

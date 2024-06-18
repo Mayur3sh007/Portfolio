@@ -7,8 +7,8 @@ import { BackgroundGradient } from "./ui/background-gradient";
 
 const HeroPic = () => {
   return (
-    <div className="absolute transform flex flex-col mr-[16%] translate-x-[160%] -translate-y-[80%] max-w-full
-        max-md:translate-x-[8%] max-md:-translate-y-[160%]
+    <div className="absolute transform flex flex-col mr-[16%] translate-x-[160%] -translate-y-[90%] max-w-full
+        max-md:translate-x-[8%] max-md:-translate-y-[180%]
        ">
       
       {/* IMAGE */} 
