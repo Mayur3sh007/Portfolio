@@ -29,7 +29,7 @@ export function Navbar() {
 
   return (
     <div className="relative w-full z-40">
-      <FloatingNav navItems={navItems} />
+      <FloatingNav navItems={navItems} className="mx-auto px-8 py-4 w-fit" />
     </div>
   );
 }

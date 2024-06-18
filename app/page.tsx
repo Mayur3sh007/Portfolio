@@ -23,10 +23,12 @@ export default function Home() {
 
   return (
     <main className='relative flex flex-col w-full h-full overflow-hidden mx-auto sm:px-10 px-5 z-50'>
-      <Navbar />
+        <Navbar />
       <div className='w-full'>
 
-        <HeaderSection />
+        <div className="max-md:hidden">
+          <HeaderSection />
+        </div>
         <HeroSection />
         <ProjectsSection />
 
@@ -73,6 +75,9 @@ export default function Home() {
         </section>
 
         <ContactSection />
+        <div className='md:hidden'>
+          <HeaderSection />
+        </div>
       </div>
     </main>
   );

@@ -77,7 +77,9 @@ export const FloatingNav = ({
             duration: 0.2,
           }}
           className={cn(
-            "flex w-fit md:min-w-[60vw] lg:min-w-fit fixed z-[5000] top-10 inset-x-0 mx-auto px-8 py-4 rounded-full shadow-lg hover:shadow-[0px_0px_20px_5px_rgba(128,0,128,0.7)] items-center justify-center space-x-4",
+            `flex fixed z-[5000] top-10 inset-x-0 items-center justify-center space-x-4 
+            rounded-full shadow-lg hover:shadow-[0px_0px_20px_5px_rgba(128,0,128,0.7)] 
+            lg:min-w-fit `,
             className
           )}
           style={{
@@ -96,7 +98,7 @@ export const FloatingNav = ({
                 "relative dark:text-white items-center flex space-x-1 text-gray-200 dark:hover:text-purple-300 hover:text-purple-500"
               )}
             >
-              <button className="relative inline-flex h-12 w-32 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+              <button className="relative inline-flex h-12 w-32 max-md:h-fit max-md:w-fit overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                 <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                 <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
                   {navItem.name}
