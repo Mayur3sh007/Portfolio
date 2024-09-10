@@ -4,7 +4,7 @@ import { TextGenerateEffect } from './ui/text-generate-effect';
 export const HeroName = () => {
   return (
     <div className="flex flex-col justify-center items-start mt-[12%] ml-[6%]
-      max-md:mt-[50%] max-md:ml-[11%]">
+      max-md:mt-[50%] max-md:ml-[8%]">
         <TextGenerateEffect
           firstName="Mayuresh"
           lastName="Chavan"

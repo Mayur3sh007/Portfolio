@@ -6,6 +6,7 @@ import HeroSection from '@/components/Sections/HeroSection';
 import ProjectsSection from '@/components/Sections/ProjectsSection';
 import HeaderSection from '@/components/Sections/HeaderSection';
 import ContactSection from '@/components/Sections/ContactSection';
+import MobileNavbar from '@/components/MobileNav';
 
 export default function Home() {
 
@@ -22,8 +23,16 @@ export default function Home() {
   ];
 
   return (
-    <main className='relative flex flex-col w-full h-full overflow-hidden mx-auto sm:px-10 px-5 z-50'>
+    <main className='relative flex flex-col w-full h-full overflow-hidden mx-auto sm:px-10 px-5 z-50 '>
+
+      <div className='max-md:hidden'>
         <Navbar />
+      </div>
+
+      <div className='md:hidden'>
+        <MobileNavbar />
+      </div>
+
       <div className='w-full'>
 
         <div className="max-md:hidden">
