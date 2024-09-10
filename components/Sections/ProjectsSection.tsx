@@ -10,7 +10,7 @@ const ProjectsSection = () => {
     }
 
     return (
-        <div className='flex-col items-center scroll-mb-20 min-h-screen' id="projects">
+        <div className='flex-col items-center scroll-mb-20 min-h-screen max-md:-ml-2' id="projects">
             <Title word1="Featured" word2="PROJECTS" className='' />
             <section className="flex justify-center space-x-3 mb-10 max-md:flex-col">
                 <Card title='MegaBlog' description={projects.MegaBlog} link='https://megablog.vercel.app/' image='/megaBlog.png' github='https://github.com/Mayur3sh007/MegaBlog' />
