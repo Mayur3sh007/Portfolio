@@ -10,18 +10,19 @@ const Footer = () => {
         </div>
 
         {/* Right Section */}
-        <div className="flex items-center justify-center md:justify-center space-x-4">
+        {/* <div className="flex items-center justify-center md:justify-center space-x-4">
           {/* Social Links */}
-          <a href="https://www.linkedin.com/in/mayuresh-chavan-04a3b5259/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-700 transition-colors duration-300">
+          {/* <a href="https://www.linkedin.com/in/mayuresh-chavan-04a3b5259/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-700 transition-colors duration-300">
             LinkedIn
           </a>
           <a href="https://x.com/MayureshizCool?t=Z17T8zAakN7_takROm2UDA&s=08" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-700 transition-colors duration-300">
             Twitter
           </a>
           <a href="mailto:mayureshc007@gmail.com" className="hover:text-indigo-700 transition-colors duration-300">
-            Gmail
-          </a>
-        </div>
+            Gmail */}
+          {/* </a>
+        </div> */}
+        
       </div>
     </footer>
   );

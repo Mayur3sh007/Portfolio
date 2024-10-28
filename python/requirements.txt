@@ -1,0 +1,8 @@
+pandas
+groq
+flask
+flask-cors
+requests
+python-dotenv
+Flask-session==0.5.0
+Werkzeug==2.3.7
