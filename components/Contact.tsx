@@ -37,7 +37,7 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-lg mx-auto p-6 rounded-lg shadow-md bg-neutral-950"
+      className="max-w-lg mx-auto p-6 rounded-lg shadow-md "
     >
       <h3 className="text-center text-xl text-white mb-5">Please enter your details</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

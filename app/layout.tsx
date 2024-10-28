@@ -17,20 +17,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-      <div className="h-full w-full bg-neutral-950 relative flex flex-col antialiased">
-
-      <BackgroundBeams className="h-full w-full " />
-
-        {children}
-        <Toaster position="bottom-left" reverseOrder={false} toastOptions={{
-          style: {
-            background: '#5A72A0',
-            color: '#FDFFE2',
-          },
-        }} />
-      </div>
+    <html lang="en" className="h-full">
+      <body className={`${inter.className} h-full`}>
+        <div className="relative min-h-screen w-full bg-neutral-950 flex flex-col antialiased">
+          <BackgroundBeams />
+          <div className="relative z-10 flex-grow">
+            {children}
+          </div>
+          <Toaster
+            position="bottom-left"
+            reverseOrder={false}
+            toastOptions={{
+              style: {
+                background: '#5A72A0',
+                color: '#FDFFE2',
+              },
+            }}
+          />
+        </div>
       </body>
     </html>
   );

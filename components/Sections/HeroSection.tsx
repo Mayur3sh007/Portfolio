@@ -7,8 +7,7 @@ import ResumeBTN from '../ResumeBTN';
 
 const HeroSection = () => {
   return (
-    <div className="h-screen w-screen bg-neutral-950 relative flex flex-col antialiased max-md:flex-col max-md:-ml-3" id="hero">
-      <BackgroundBeams className="h-full w-full " />
+    <div className="h-screen w-screen max-md:flex-col max-md:-ml-3" id="hero">
       <div className="flex-grow flex relative items-center mb-8 h-screen">
         <div className="flex flex-col w-full max-w-screen-lg">
 

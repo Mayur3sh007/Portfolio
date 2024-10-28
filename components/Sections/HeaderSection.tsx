@@ -3,7 +3,7 @@ import Headerbox from '../Headerbox'
 
 const HeaderSection = () => {
     return (
-        <div className="h-full w-full bg-neutral-950 relative flex flex-col antialiased max-md:flex-col" id="header">
+        <div className="h-full w-full  relative flex flex-col antialiased max-md:flex-col" id="header">
             <Headerbox />
         </div>
     )
