@@ -7,6 +7,7 @@ import ProjectsSection from '@/components/Sections/ProjectsSection';
 import HeaderSection from '@/components/Sections/HeaderSection';
 import ContactSection from '@/components/Sections/ContactSection';
 import MobileNavbar from '@/components/MobileNav';
+import Chatbot from '@/components/Chatbot';
 
 export default function Home() {
 
@@ -19,8 +20,9 @@ export default function Home() {
     { title: 'Mongodb', iconName: 'mongodb' },
     { title: 'SQL', iconName: 'sqllite' },
     { title: 'NEXTjs', iconName: 'nextjs' },
-    // Add more skills as needed
   ];
+
+  
 
   return (
     <main className='relative flex flex-col w-full h-full overflow-hidden mx-auto sm:px-10 px-5 z-50 '>
@@ -28,6 +30,8 @@ export default function Home() {
       <div className='max-md:hidden'>
         <Navbar />
       </div>
+
+      {/* <Chatbot  /> */}
 
       <div className='md:hidden'>
         <MobileNavbar />
