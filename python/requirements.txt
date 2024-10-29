@@ -6,3 +6,4 @@ requests
 python-dotenv
 Flask-session==0.5.0
 Werkzeug==2.3.7
+elevenlabs

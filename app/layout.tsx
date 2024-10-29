@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { Toaster } from "react-hot-toast";
+import EnhancedChatbot from "@/components/Chatbot";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
           <div className="relative z-10 flex-grow">
             {children}
           </div>
+          <EnhancedChatbot />
           <Toaster
             position="bottom-left"
             reverseOrder={false}
