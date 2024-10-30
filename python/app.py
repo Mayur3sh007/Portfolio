@@ -7,7 +7,7 @@ from groq import Groq
 import uuid
 import logging
 from elevenlabs import ElevenLabs,VoiceSettings
-
+# Resetting the flask deployment issue
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
 logging.basicConfig(level=logging.DEBUG)
