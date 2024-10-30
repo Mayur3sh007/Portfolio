@@ -49,7 +49,7 @@ export default function EnhancedChatbot() {
   const getAudioForText = async (text: string): Promise<string | undefined> => {
     try {
       const response = await axios.post(
-        'http://localhost:5000/text-to-speech',
+        'https://flask-portfolio-gamma.vercel.app/text-to-speech',
         { text },
         { responseType: 'blob' }
       )
@@ -66,7 +66,7 @@ export default function EnhancedChatbot() {
     
     try {
       setIsLoading(true)
-      const response = await axios.post('http://localhost:5000/chat', {
+      const response = await axios.post('https://flask-portfolio-gamma.vercel.app/chat', {
         userMessage: userQuery,
         resumeContent,
         chatHistory: chatHistory,
@@ -95,7 +95,7 @@ export default function EnhancedChatbot() {
   const startSession = async () => {
     try {
       setIsLoading(true)
-      const response = await axios.post('http://localhost:5000/start_session', {
+      const response = await axios.post('https://flask-portfolio-gamma.vercel.app/start_session', {
         resumeContent
       })
       setChatOpen(true)
@@ -110,7 +110,7 @@ export default function EnhancedChatbot() {
 
   const endSession = async () => {
     try {
-      await axios.post('http://localhost:5000/end_session')
+      await axios.post('https://flask-portfolio-gamma.vercel.app/end_session')
       chatHistory.forEach(chat => {
         if (chat.audioUrl) {
           URL.revokeObjectURL(chat.audioUrl)
