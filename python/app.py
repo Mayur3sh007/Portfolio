@@ -47,7 +47,7 @@ def chat_with_llama(user_question, chat_history, resume_content):
 
         Here are the key guidelines for your responses:
 
-        Concise: Keep the responses brief but informative.
+        Concise: Keep the responses concise and to the point while still providing relevant information in short sentence.
         Precise: Focus on key accomplishments and relevant details.
         Praising: Highlight achievements in a positive and professional manner without making it too obvious.
         The provided resume data is:
