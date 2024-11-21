@@ -39,8 +39,7 @@ const Card = ({ title, description, link, image, github }: { title: string, desc
               target="__blank"
               className="px-4 py-2 rounded-xl text-s font-normal dark:text-white text-[#8A2BE2] bg-transparent dark:bg-transparent hover:text-purple-500 transition-colors duration-300"
             >
-              {title === 'WealthWise' ? 'Devfolio ' : 'Live '} <ExternalLinkIcon className='inline-block w-4 h-4 ml-1' />
-              {/* Check it Out → */}
+              {title === 'WealthWise' ? 'Devfolio' : title === 'Traffic Surveillance System' ? 'Demo' : 'Live'} <ExternalLinkIcon className='inline-block w-4 h-4 ml-1' />
             </CardItem>
           )}
           <CardItem

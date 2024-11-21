@@ -4,6 +4,7 @@ import "./globals.css";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { Toaster } from "react-hot-toast";
 import EnhancedChatbot from "@/components/Chatbot";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,6 +38,7 @@ export default function RootLayout({
             }}
           />
         </div>
+        <Analytics />
       </body>
     </html>
   );

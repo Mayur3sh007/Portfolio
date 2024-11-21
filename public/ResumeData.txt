@@ -1,2 +1,71 @@
-Mayuresh Chavan LeetCode = https://leetcode.com/MayureshChavan, Github = https://github.com/Mayur3sh007, LinkedIn = https://www.linkedin.com/in/mayuresh-chavan-04a3b5259/. 
-Hackathon Achievements: [link : https://drive.google.com/drive/folders/1-BVudaYeyTS__RdO5hZXGS3LBflQKZU8] Finalist in Coherence 1.0 (top 5 out of 50), Top 15 out of 156 teams nationwide in DUHacks 3.0, and Finalist in Need For Code 3.0 (top 5 out of 50). Academic Success Consistently achieved CGPA of 9.87 and 9.88 in the 2nd year, maintaining an overall aggregate of 9.1 Skills Frontend HTML, CSS, React.js, React Native,Next.js, Redux/Redux Toolkit, API integration Programming Languages C, C++, Python, Javascript, Typescript, Professional Experience Backend Node.js, Express.js, Flask, MongoDB, SQL, Firebase, Appwrite Others Github, Git, Docker, GenAI Web Developer 2024 – present | Mumbai, India @TSEC DEV's CLUB 1. Built a versatile web app for students, featuring the official railway reservation system for our college 2. Developed a feature for teachers to easily share notes with students 3. Created a module for students to track exam schedules and important dates 4. Enabled committees to advertise events, primarily using our platform for effective communication Projects vrSafe : An Online Banking Platform [Live] Tech Stack : Next.js, TypeScript, Zod, Plaid API, Dwolla, Appwrite • Comprehensive Form Validation: Utilized Zod for thorough form validation and error management. • Secure Bank Connections: Integrated Plaid's API for seamless and secure connections with banks. • • Efficient Financial Transactions: Employed Dwolla's API to manage and execute transactions with high security and accuracy. PaisePlus : Empowering Financial Literacy Through Technology [Github] Tech Stack: Next.js, Firebase, Python, Flask, LLaMA 3.2. • • Financial Tools: Simulators for Fixed Deposits, SIP Mutual Funds, EMI Calculators, personalized financial advisor, and loan loss predictor for risk assessment. • AI Learning: Dynamic courses with AI chatbots, short videos, and weekly challenges simulating real-world financial scenarios to improve decision-making. Car Tracker : Smart Counting and Detection System [Github] Tech Stack: Python, CVZone, NumPy, Matplotlib, PyTorch, YOLOv8, OpenVINO, scikit-image. • Advanced Vehicle Counting: Utilizes YOLOv8 for accurate car counting within designated areas. • Optimized Frame Processing: Implements a tracer mechanism, enhancing computational efficiency. • Focused Detection: Uses masking to improve detection accuracy and reduce false positives. • Education B.E 2022 – present | Mumbai, India Thadomal Shahani Engineering College
+Name:- Mayuresh Chavan
+
+Relevant Links:
+LeetCode = https://leetcode.com/MayureshChavan, 
+Github = https://github.com/Mayur3sh007, 
+LinkedIn = https://www.linkedin.com/in/mayuresh-chavan-04a3b5259/. 
+Certification Links: [link : https://drive.google.com/drive/folders/1-BVudaYeyTS__RdO5hZXGS3LBflQKZU8] 
+email = mayureshc007@gmail.com 
+location = Mumbai, India
+
+Achievements
+Academic Success
+Achieved a CGPA of 9.87 and 9.88 during the 2nd year
+Hackathons 
+•Finalist in Smart India Hackathon (SIH) 2024, selected from 3,000+ teams to present solutions in the finale.
+•Top 15 out of 156 teams in DUHacks 3.0, collaborated with a 4-person team to build a website promoting
+transparent product ethics, enabling users to view the carbon footprint of products before making a purchase.
+Programming
+Solved 400+ problems on LeetCode, refining algorithmic skills and mastering data structures
+
+Skills
+Frontend
+HTML, CSS, React.js, React Native,Next.js,
+Redux/Redux Toolkit, API integration
+Programming Languages
+C, C++, Python, Javascript, Typescript
+Backend
+Node.js, Express.js, Flask, MongoDB, mySQL, Oracle
+SQL, Firebase, Appwrite
+Tools & Others
+Github, Git, Docker, GenAI, REST APIs
+
+Professional Experience
+Web Developer
+@TSEC DEV's CLUB
+•Designed and implemented a railway reservation system utilized by 500+ students, streamlining the booking
+process and achieving a 95% reduction in wait times by eliminating queues.
+•Built a tracking module for exam schedules, reducing missed deadlines by 80%.
+•Optimized event advertising and user engagement, driving a 20% increase in active participation.
+
+Projects
+vrSafe: Empowering Secure and Seamless Online Banking [Live]
+•Engineered a secure financial transaction platform using Next.js and Plaid API, leveraging server-side rendering
+(SSR) to improve UI responsiveness by 30%.
+•Designed robust forms with Zod for seamless validation, improving form submission accuracy and reducing
+errors by 50%.
+PaisePlus : Empowering Financial Literacy Through Technology [Github]
+•Built interactive tools, including a fixed deposit simulator and personalized financial advisor, with Flask and
+Firebase, promoting financial awareness.
+•Integrated AI-driven modules to simulate real-world scenarios and created AI video tutorials with DID for
+personalized guidance, enhancing user engagement and comprehension by 25%.
+Car Tracker : Smart Counting and Detection System [Github]
+•Developed a real-time vehicle detection and counting system using YOLOv8.
+•Optimized frame processing and tracking with advanced computer vision algorithms, improving traffic analysis
+efficiency by 20%.
+
+Education
+B.E
+Thadomal Shahani Engineering College
+2022 – present | Mumbai, India
+•CGPA: 9.1
+•Relevant Coursework: Data Structures, Algorithms, Object-Oriented Programming, Database Management
+
+
+
+Summary:
+Mayuresh Chavan is a highly skilled Web Developer with a strong academic background, currently pursuing a B.E. at Thadomal Shahani Engineering College, Mumbai. With a CGPA of 9.1 and a history of outstanding performance, including a top ranking in various hackathons like Smart India Hackathon 2024 and DUHacks 3.0, Mayuresh has demonstrated excellence in both academics and practical problem-solving. He has solved over 400 problems on LeetCode, showcasing his proficiency in algorithms and data structures.
+
+In his role as a Web Developer at TSEC DEV's CLUB, he designed and implemented a railway reservation system, reduced wait times by 95%, and built an exam schedule tracker that decreased missed deadlines by 80%. He has worked on several impactful projects, including vrSafe, a secure financial transaction platform, PaisePlus, a financial literacy tool, and Car Tracker, a real-time vehicle detection system.
+
+With expertise in front-end and back-end development, Mayuresh is proficient in a wide range of technologies such as React, Next.js, Node.js, Flask, Firebase, and more. His strong problem-solving skills, along with his passion for building impactful solutions, make him a valuable asset to any development team.

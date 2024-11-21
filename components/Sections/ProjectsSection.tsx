@@ -19,9 +19,9 @@ const ProjectsSection = () => {
             github: 'https://github.com/Mayur3sh007/vrSafe'
         },
         CleanNGreen: {
-            title: 'Car tracker : YOLOV8',
+            title: 'Traffic Surveillance System',
             description: 'An intelligent vehicle counting and detection system designed to provide precise counts within specified zones. It uses advanced object detection to optimize accuracy,  making it an efficient solution for traffic management and analysis',
-            link: null,
+            link: 'https://www.linkedin.com/posts/mayuresh-chavan-04a3b5259_machinelearning-computervision-yolov8-activity-7174461543923785728-ICBS?utm_source=share&utm_medium=member_desktop',
             image: '/cartracker.png',
             github: 'https://github.com/Mayur3sh007/33_git-push--f_DUhacks'
         }
